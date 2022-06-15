@@ -3,7 +3,7 @@
     padding: 0;
     border: 0;
     box-sizing: border-box;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 header {
@@ -17,7 +17,8 @@ header {
 
 header h1 {
     font-style: italic;
-    color: red;
+    color: #D6000D
+    ;
     font-size: 42px;
 }
 
@@ -41,7 +42,7 @@ header ul li a{
 
 #login {
     display: block;
-    background-color: red;
+    background-color: #D6000D;
     border-radius: 8px;
     padding: 5px 40px;
     color: white;
@@ -79,7 +80,7 @@ header ul li a{
 #topoTextos span {
     font-weight: bold;
     font-size: 70px;
-    color: red;
+    color: #D6000D;
 }
 
 #orcamento {
@@ -88,7 +89,7 @@ header ul li a{
 }
 
 #orcamento a {
-    background-color: red;
+    background-color: #D6000D;
     padding: 10px 80px;
     border-radius: 10px;
     text-decoration: none;
@@ -147,7 +148,7 @@ header ul li a{
 }
 
 .formulario form button {
-    background-color: red;
+    background-color: #D6000D;
     font-size: 22px;
     padding: 8px 25px;
     border-radius: 8px;
@@ -174,7 +175,7 @@ header ul li a{
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    background-color: red;
+    background-color: #D6000D;
 }
 
 .depoimentoTexto {
@@ -227,7 +228,27 @@ footer {
     margin-left: 10px;
 }
 
-.rodape a img {
+.rodape a svg {
     margin-top: 20px;
+}
+
+#twitterIcon {
+    width: 20px;
+    fill: #D6000D;
+}
+
+#instagramIcon {
+    width: 20px;
+    fill: #D6000D;
+}
+
+#facebookIcon {
+    width: 20px;
+    fill: #D6000D;
+}
+
+.checkIcon {
     width: 25px;
+    fill: #D6000D;
+    margin-right: 30px;
 }
